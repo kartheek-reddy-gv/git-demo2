@@ -23,6 +23,6 @@ public class FunRestController {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello world! Time on server is " + LocalDateTime.now();
+		return "Hello Kartheek! Time on server is " + LocalDateTime.now();
 	}
 }
