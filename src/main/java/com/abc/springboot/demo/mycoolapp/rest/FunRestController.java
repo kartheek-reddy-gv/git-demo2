@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FunRestController {
 	
 	public String sayHello() {
-		return "Hello Kartheek! Time on server is " + LocalDateTime.now();
+		return "Hello Kartheek Reddy! Time on server is " + LocalDateTime.now();
 	}
 }
